@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Read instructions from prompt file
-prompt_file = Path(__file__).parent / "prompts" / "v2_instructions.txt"
+prompt_file = Path(__file__).parent / "prompts" / "v3_instructions.txt"
 with open(prompt_file, "r") as f:
     instructions = f.read().strip()
 
